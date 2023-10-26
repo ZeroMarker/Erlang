@@ -7,3 +7,5 @@ erl>
 
 c(erlang_example).
 erlang_example:start().
+
+halt().
