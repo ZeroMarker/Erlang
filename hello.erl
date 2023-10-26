@@ -1,3 +1,6 @@
+-module(hello).
+-compile([export_all]).
+
 % Define a function to create a new process
 create_process(N) ->
     spawn(fun() -> loop(N) end).
