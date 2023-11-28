@@ -1,5 +1,6 @@
 # Erlang
 
+[Erlang Hello World Example](https://www.thegeekstuff.com/2010/05/erlang-hello-world-example/)
 
 ```sh
 sudo apt-get install erlang-ic
