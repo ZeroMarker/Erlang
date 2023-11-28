@@ -1,18 +1,27 @@
 # Erlang
 
-erlc erlang_example.erl
-// erlang_example.beam
+
+```sh
+sudo apt-get install erlang-ic
+erlc helloworld.erl
+
+$ ls
+helloworld.beam  helloworld.erl
+
+erl -noshell -s helloworld start -s init stop
+```
+
+***
+
+```sh
+erlc hello.erl
+# hello.beam
 
 erl>
 
-c(erlang_example).
+c(hello).
 
-erlang_example:start().
+hello:start().
 
 halt().
-
-- Open a terminal.
-- Navigate to the directory where you saved the two_sum.erl file.
-- Start the Erlang shell by typing erl and pressing Enter.
-- Compile the code by typing c(two_sum). and pressing Enter.
-- Run the program by typing two_sum:main(). and pressing Enter.
+```
